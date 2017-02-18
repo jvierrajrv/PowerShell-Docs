@@ -273,7 +273,7 @@ Enter the definition path.
 The concatenation of the values of the *DefinitionPath* and *DefinitionName* parameters is the fully qualified path of the job definition.
 Use this parameter to start custom job types that have a definition path, such as scheduled jobs.
 
-For scheduled jobs, the value of the *DefinitionPath* parameter is `$home\AppData\Local\Windows\PowerShell\ScheduledJob`.
+For scheduled jobs, the value of the *DefinitionPath* parameter is `$env:USERPROFILE\AppData\Local\Windows\PowerShell\ScheduledJob`.
 
 This parameter was introduced in Windows PowerShell 3.0.
 
